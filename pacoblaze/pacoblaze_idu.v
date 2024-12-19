@@ -162,7 +162,6 @@ begin
 	operation = 'h0; // default
 	`endif
 
-	// synthesis parallel_case full_case
 `ifdef PACOBLAZE1
 	casex (instruction_0)
 `else

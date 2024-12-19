@@ -315,7 +315,6 @@ endtask
 task execute;
 input [`operation_width-1:0] operation;
 begin
-	// synthesis parallel_case full_case
 `ifdef USE_ONEHOT_ENCODING
 	case (1'b1)
 `else

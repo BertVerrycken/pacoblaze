@@ -121,7 +121,6 @@ wire [1+2*`operand_width-1:0] addsubw_result =
 `endif
 
 /** Shift bit value. */
-// synthesis parallel_case full_case
 wire shift_bit =
 	(shift_operation == `opcode_rr) ? operand_a[0] : // == `opcode_slx
 	(shift_operation == `opcode_rl) ? operand_a[7] : // == `opcode_srx
@@ -173,7 +172,6 @@ always @(operation,
 	resultw = operand_v;
 `endif
 
-	// synthesis parallel_case full_case
 `ifdef USE_ONEHOT_ENCODING
 	case (1'b1)
 `else

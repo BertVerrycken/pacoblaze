@@ -8,6 +8,6 @@
 `define PACOBLAZE3
 `define PACOBLAZE_DREGISTER pacoblaze3_dregister
 
-`include "..\pacoblaze\pacoblaze\pacoblaze_dregister.v"
+`include "pacoblaze_dregister.v"
 
 `endif //  PACOBLAZE3_DREGISTER_V_

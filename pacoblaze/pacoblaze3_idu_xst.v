@@ -8,6 +8,6 @@
 `define PACOBLAZE3
 `define PACOBLAZE_IDU pacoblaze3_idu
 
-`include "..\pacoblaze\pacoblaze\pacoblaze_idu.v"
+`include "pacoblaze_idu.v"
 
 `endif //  PACOBLAZE3_IDU_V_
