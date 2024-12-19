@@ -1,0 +1,50 @@
+# vim swap files
+.*sw*
+# python compiled code
+# The fusesoc library should be installed locally not under version control
+fusesoc/fusesoc_libraries
+# Python cache files
+/.venv/
+/.vscode/
+**/__pycache__/
+**/*.egg-info/
+**/.pytest_pycache
+**/*.egg-info/
+/.mypy_cache/
+# binary outputs
+*.bin
+*.elf
+*.hex
+*.so
+*.o
+*.d
+*.vpi
+*.vvp
+*.out
+*.dSYM
+*.swp
+# other outputs
+*.log
+*.egg-info
+*.doit*
+*.vcd
+*.fst
+*.fst.hier
+results.xml
+obj_dir
+.pytest_cache
+*.mt0
+*.wrapper*
+**/build/
+**/dist/
+**/sim_build/
+xcelium.tcl
+xrun.history
+.simvision
+xrun.key
+*nohup.out
+.DS_Store
+Thumbs.db
+**/yosys/old/*
+**/yosys/*.v
+args.tcl
